@@ -1,0 +1,9 @@
+2025-06-24T06:23:27.852Z | admin1 (admin) | Purchased 10 of equipment ID 1 for base 1
+2025-06-24T06:31:33.084Z | admin1 (admin) | Transferred 5 of equipment ID 1 from base 1 to base 2
+2025-06-24T06:34:05.950Z | admin1 (admin) | Assigned 2 of equipment ID 1 to undefined
+2025-06-24T06:34:54.114Z | admin1 (admin) | Marked assignment ID 1 as expended
+2025-06-24T07:16:53.437Z | logistics1 (logistics) | Purchased 4 of equipment ID 2 for base 1
+2025-06-24T07:19:19.068Z | commander1 (commander) | Assigned 1 of equipment ID 2 to John
+2025-06-24T07:46:53.703Z | admin (admin) | Purchased 1 of equipment ID 2 for base 1
+2025-06-24T07:47:12.832Z | admin (admin) | Transferred 1 of equipment ID 2 from base undefined to base undefined
+2025-06-24T07:47:50.883Z | admin (admin) | Assigned 1 of equipment ID 2 to militaryBase1
