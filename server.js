@@ -76,9 +76,9 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
 // Catch-all route for SPA support
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
-});
+app.get('/*any', (req, res) => {
+   res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
+ });
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
