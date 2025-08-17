@@ -33,7 +33,6 @@
 // app.listen(PORT, () =>
 //   console.log(`Server running and serving React app on port ${PORT}`)
 // );
-
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -77,7 +76,7 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
 // Serve index.html for all other routes
-app.get('/*', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
 });
 
@@ -85,5 +84,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
   console.log(`Server running and serving React app on port ${PORT}`)
 );
-
-
