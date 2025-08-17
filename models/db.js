@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: false // set to { rejectUnauthorized: false } if using Render DB
+  ssl:  { rejectUnauthorized: false } 
 });
 
 module.exports = pool;
